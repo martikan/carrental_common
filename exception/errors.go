@@ -10,7 +10,7 @@ func ApiError(err error) gin.H {
 
 func ApiMessage(msg string, status int) gin.H {
 	return gin.H{
-		"status": status,
+		"status":  status,
 		"message": msg,
 	}
 }
